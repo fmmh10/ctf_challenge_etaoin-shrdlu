@@ -1,3 +1,9 @@
 V2ZsZG9uZSF0cCBEVEdjdmwvIFVoanMhaXQga3V0dCFzcG1mIHFhZWRqbmguIUlnIHpvdiBxYXogYnR1ZW90am9vLCF0aWl0IGpzIXZ2bG9lc2FjbGYgdW8hZnNlcnVmbmR5IWFvYW15dGl0LkpmIXlwdSFjYm4hcmZhZSB1aGpzLSB0ZW9kIXRpZSE6dGFvdGI6IWVub2tpIWF0IGIgcXJqdmJ0ZiBuZXRzYmdmIEFEam9ob3BuIURqc2Rvc2QvIERoZmVzcy8=
 
 -Etaoin Shrdlu
+
+
+1-First of all u can see that it's encoded in base 64 because it ends in "=" ;)
+2-When u decode u can see that it looks familiar, u can notice that some letters are right, some aren't...
+3-So I notice that the 0 and even positions in the decoded string are right and the odd positions are wrong, they are 1+ letter in the dicionary Ex: e->f, a->b, j->k...
+4-I build a simple and quick script in Python that shows the decrypted message.
